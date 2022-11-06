@@ -1,0 +1,21 @@
+{
+	"name" : "ONEDOWN Color Fix"
+	"description" : "Fix onedown text color on tabscreen when using korean"
+	"author" : "Shane",
+	"Contact" : "https://steamcommunity.com/id/Shane1230/",
+	"version" : "1.0",
+	"hooks": [
+		{ 
+			"hook_id" : "lib/managers/hud/newhudstatsscreen",
+			"script_path" : "fixcolor.lua"
+		}
+	],
+	"updates": [
+        {
+		"identifier": "odcf",
+		"host": {
+		"meta": "https://raw.githubusercontent.com/Shane1230/autoupdate/main/ODCF"
+	 	}
+	}
+	]
+}
